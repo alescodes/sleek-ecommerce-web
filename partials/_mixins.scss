@@ -1,0 +1,54 @@
+@mixin button($textColor: $white-color, $backgroundColor: $secondary-color) {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    width: fit-content;
+    background: $backgroundColor;
+    color: $textColor;
+    cursor: pointer;
+    transition: all 400ms ease;
+
+    &.btn1 {
+      background: $btn1;
+
+      &:hover {
+        background: lighten($color: $btn1, $amount: 20%);
+        box-shadow: 0 1rem 1.6rem rgba($color: $black-color, $alpha: 0.15);
+      }
+    }
+    
+    
+  
+  
+    &:hover {
+      background: lighten($color: $backgroundColor, $amount: 20%);
+      box-shadow: 0 1rem 1.6rem rgba($color: $black-color, $alpha: 0.15);
+
+    }
+  }
+
+
+@mixin gradientBackground {
+    background: linear-gradient(-286deg,white 10%, lighten($bluecolor, 55%) , white 70%, lighten($secondary-color-variant,60%) ) ;
+    color: $black-color;
+}
+
+@mixin linearGradient {
+    background: $secondary-color-variant;
+    background-image: linear-gradient(90deg, $secondary-color, $btn1);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    background-clip: none;
+    
+    
+    // -o-text-overflow: hidden;
+
+    
+
+}
+
+  

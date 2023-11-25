@@ -1,0 +1,68 @@
+.listproduct {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 100%;
+  padding-top: 1rem;
+  place-content: center;
+  background: $primary-color-variant;
+  position: relative;
+  top: 10rem;
+
+  
+  gap: 20px;
+  .item {
+    
+    background: $form-color;
+    width: 250px;
+    height: 400px;
+    place-content: center;
+    text-align: center;
+    border-radius: 30px;
+    margin-bottom: 5rem;
+
+    .price {
+      letter-spacing: 2px;
+      margin-top: 1rem;
+
+      svg { margin-right: 2px;
+
+      }
+    }
+
+    h2 {
+      margin-top: 1rem;
+      font-weight: 500px;
+      
+    }
+
+    p {
+      margin-top: 1rem;
+    }
+
+    button {
+      @include button;
+      margin-top: 2rem;
+      width: 150px;
+      height: 50px;
+      border: none;
+      cursor: pointer;
+
+      &:active{
+        background: green;
+      }
+      &:focus{
+        background: green;
+      }
+    }
+    
+    
+    img {
+      width: 100%;
+      // filter: drop-shadow(0 50px 20px rgba($black-color, 0.3));
+      
+      border-top-right-radius: 30px;
+      border-top-left-radius: 30px;
+    }
+  }
+}

@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "GORI SECRET",
+        "price": 1500,
+        "image": "assets/istockphoto-1433701468-170667a.webp",
+        "description": "jsadibisbbdbsksbdbbshbdhvb"
+    },
+    {
+        "id": 2,
+        "name": "REVIVE SECRET",
+        "price": 1500,
+        "image": "assets/istockphoto-1324069045-170667a.webp",
+        "description": "jsadibisbbdbsksbdbbshbdhvb"
+    },
+    {
+        "id": 3,
+        "name": "REVIVE SECRET dark",
+        "price": 1500,
+        "image": "assets/istockphoto-1324069045-170667a.webp",
+        "description": "jsadibisbbdbsksbdbbshbdhvb"
+    },
+    {
+        "id": 4,
+        "name": "REVIVE SECRET fair",
+        "price": 1500,
+        "image": "assets/istockphoto-1324069045-170667a.webp",
+        "description": "jsadibisbbdbsksbdbbshbdhvb"
+    },
+    {
+        "id": 5,
+        "name": "GENERAL SECRET1",
+        "price": 1500,
+        "image": "assets/istockphoto-1324069045-170667a.webp",
+        "description": "jsadibisbbdbsksbdbbshbdhvb"
+    },
+    {
+        "id": 6,
+        "name": "GENERAL SECRET2",
+        "price": 1500,
+        "image": "assets/istockphoto-1324069045-170667a.webp",
+        "description": "jsadibisbbdbsksbdbbshbdhvb"
+    }
+]

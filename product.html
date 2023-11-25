@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    
+
+     
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- got to cdnjs.com/libraries/font-awesome and copy version 4.70 and copy the third url and paste in your html -->
+    <!-- expanded sass  -->
+
+    <link rel="stylesheet" href="./dist/css/main.css" />
+
+    <!-- BOXICONS ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Responsive webiste using Html, Scss and Javascript</title>
+  </head>
+
+  <body class="">
+    <nav class="nav">
+      <div class="container bgcolor" id="container">
+        <a href="index.html" class="nav_logo"
+          ><img src="/assets/Sleek Aless Coloured 1.png" alt=""
+        /></a>
+
+        <button class="my-button" id="my-button">
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <ul id="nav_items" class="ul-items">
+          <li><a href="home.html">Home</a></li>
+        
+          <li><a href="#reviews">Reviews</a></li>
+          <li><a href="product.html">Product</a></li>
+
+          <li><a href="#tip">Tips </a></li>
+          <li><a href="#trusted">Trusted Vendors & Recommended Product</a></li>
+          <li><a href="http://127.0.0.1:5502/home.html#form" class="btn">Book a Consultant</a></li>
+        </ul>
+        <div class="icon-cart">
+            <i  id="cart" class='bx bx-cart-alt'></i>
+            <span >0</span>
+        </div>
+
+        
+      </div>
+    </nav>
+    <!-- end iof nav bar -->
+
+    <div class="listproduct">
+        <div class="item">
+            <img src="/assets/istockphoto-1324069045-170667a.webp" alt="">
+            <h2>GORI SECRET</h2>
+            <div class="price">
+                #1500</div>
+                <p class="list-line"></p>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorum!</p>
+                <button class="addCart">Add To Cart</button>
+
+
+                
+        </div>
+    </div>
+
+    <div class="cartTab">
+        <h1>Shopping Cart</h1>
+        <div class="listCart">
+            <div class="item">
+                <div class="image">
+                    <img src="/assets/istockphoto-1358220059-170667a.webp" alt="">
+                </div>
+                <div class="name">NAME</div>
+                <div class="totalprice">
+                    #1500
+                </div>
+                <div class="quantity">
+                <span class="minus"><</span>
+                <span>1</span>
+                <span class="plus">></span>
+                </div>
+            </div>
+        </div>
+       <div class="btn">
+         <button class="close">Close</button>
+        <a href="checkout.html"><button class="checkOut">Check Out</button></a>
+    </div>
+    </div>
+
+    
+
+    <script src="cart.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

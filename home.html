@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    
+
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- got to cdnjs.com/libraries/font-awesome and copy version 4.70 and copy the third url and paste in your html -->
+    <!-- expanded sass  -->
+
+    <link rel="stylesheet" href="./dist/css/main.css" />
+
+    <!-- BOXICONS ICONS -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <title>Responsive webiste using Html, Scss and Javascript</title>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <div class="container  bgcolor"  id="container">
+        <a href="index.html" class="nav_logo"
+          ><img  src="/assets/Sleek Aless Coloured 1.png" alt=""
+        /></a>
+
+        <button class="my-button" id="my-button">
+          <i class="fas fa-bars"></i>
+        </button>
+        
+        
+        <ul id="nav_items" class="ul-items">
+          <li><a href="#Home">Home</a></li>
+          <!-- <li>
+            <select id="product">
+              <option value="">Product</option>
+              <a href="http://127.0.0.1:5502/product.html#"><option value="sab">SAB<sub>Bars</sub></option></a>
+              <a href="#sawbars"><option value="dog">SAW<sub>Bars</sub></option></a>
+            </select> -->
+
+            <!-- <a href="#sab">SAB<sub>Bars</sub></a> -->
+          <!-- </li> -->
+          <!-- <li>
+            <a href="#saw">SAW<sub>Bars</sub></a>
+          </li> -->
+          <li><a href="#reviews">Reviews</a></li>
+      
+          <li><a href="product.html">Product</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#new">Trusted</a></li>
+          <li><a href="#tip">Tips</a></li>
+          <li><a href="#form" class="btn">Book a Consultant</a></li>
+        </ul>
+
+        
+
+        <!-- <button id="open_nav-btn"><i class="bx bx-menu"></i></button>
+        <button id="close_nav-btn"><i class="bx bx-x"></i></button> -->
+      </div>
+    </nav>
+
+    <!-- ====================END OF NAV========================== -->
+
+    <header id="Home">
+      <div class="container">
+        <div class="header_content">
+          <h1>
+            Beauty Bars For <br />
+            Everyone
+          </h1>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <br />Laborum, excepturi expedita. minima libero! Molestias<br />
+            laboriosam totam nam officiis?
+          </p>
+          <a href="http://127.0.0.1:5502/product.html#" class="btn" 
+            ><i class="bx bxs-right-arrow-alt"></i>Shop SAB<sub>bars</sub></a
+          >
+          <a href="http://127.0.0.1:5502/product.html#sawbars" class="btn1"
+            ><i class="bx bxs-right-arrow-alt"></i>Shop SAW<sub>bars</sub></a
+          >
+        </div >
+        <!-- <div class="header_image"> -->
+        <img src="./assets/HONEY copy.png" alt="Header Image " />
+        <!-- </div> -->
+      </div>
+    </header>
+
+    <!-- ======================END OF HEADER======================== -->
+
+    <!-- =============== CAROUSEL -->
+    <section class="slides">
+   
+    <div>
+      <img src="assets/5.jpeg" alt="">
+    </div>
+    
+    <div class="slideshow-container">
+    
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 5</div>
+      <img src="assets/2.jpeg" style="width:100%">
+      <div class="text">You are the best</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="assets/8.jpeg" style="width:100%">
+      <div class="text">We care</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 5</div>
+      <img src="assets/6.jpeg" style="width:100%">
+      <div class="text">Be unique</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 5</div>
+      <img src="assets/5.jpeg" style="width:100%">
+      <div class="text">Love yourself</div>
+    </div>
+    <div class="mySlides fade">
+      <div class="numbertext">5 / 5</div>
+      <img src="assets/8.jpeg" style="width:100%">
+      <div class="text">Every thought counts</div>
+    </div>
+    </div>
+    <br>
+    
+    <div style="text-align:center">
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+      <span class="dot"></span> 
+    </div>
+
+    <div>
+      <img src="assets/8.jpeg" alt="">
+    </div>
+
+    
+
+   
+    </section>
+
+    <!-- ====================  SLIDING IMAGES SECTION AND WRITE UP =============== -->
+
+    <!-- ==================== main body page ======================================== -->
+
+    <section id="main">
+      <div class="first-container">
+        <img src="./assets/Mask group 2.png" alt="" />
+        <div class="first-content">
+          <h2>GORI SECRET</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+            voluptates.
+          </p>
+          <p class="hr-lines"></p>
+          <h6>purpose</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            beatae!
+          </p>
+          <a href="#"><button class="btn">Discover Now</button></a>
+        </div>
+      </div>
+      <div class="second-container">
+        <img src="./assets/Mask group 2.png" alt="" />
+        <div class="second-content">
+          <h2>GORI SECRET</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+            voluptates.
+          </p>
+          <p class="hr-lines"></p>
+          <h6>purpose</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            beatae!
+          </p>
+          <a href="#"><button class="btn">Discover Now</button></a>
+        </div>
+      </div>
+      <div class="linkpage">
+        <a href=""
+          >link to recommended scrub
+          <p class="hr-lines"></p
+        ></a>
+        <a href=""
+          >link to recommended scrub
+          <p class="hr-lines"></p
+        ></a>
+        <a href=""
+          >link to recommended scrub
+          <p class="hr-lines"></p
+        ></a>
+      </div>
+      <div class="third-container">
+        <img src="./assets/Mask group 2.png" alt="" />
+        <div class="third-content">
+          <h2>GORI SECRET</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+            voluptates.
+          </p>
+          <p class="hr-lines"></p>
+          <h6>purpose</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            beatae!
+          </p>
+          <a href="#"><button class="btn">Discover Now</button></a>
+        </div>
+      </div>
+      <div class="fourth-container">
+        <img src="./assets/Mask group 2.png" alt="" />
+        <div class="fourth-content">
+          <h2>GORI SECRET</h2>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Est,
+            voluptates.
+          </p>
+          <p class="hr-lines"></p>
+          <h6>purpose</h6>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque,
+            beatae!
+          </p>
+          <a href="#"><button class="btn">Discover Now</button></a>
+        </div>
+      </div>
+      <div class="linkpage">
+        <a href=""
+          >link to recommended scrub
+          <p class="hr-lines"></p
+        ></a>
+
+        <a href=""
+          >link to recommended scrub
+          <p class="hr-lines"></p
+        ></a>
+        <a href=""
+          >link to recommended scrub
+          <p class="hr-lines"></p
+        ></a>
+      </div>
+    </section>
+
+    <!-- ============================ END OF MAIN ========================= -->
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatibus,
+        asperiores dolores necessitatibus error molestias eligendi et sunt
+        voluptatum eos eaque quibusdam perspiciatis esse voluptates tenetur.
+        Reiciendis assumenda nam maxime nulla animi quas totam, eligendi
+        placeat! Facilis nostrum saepe accusantium velit iusto dolor iure
+        voluptates explicabo earum. Ut facilis eum, dolore pariatur, autem
+        eligendi quos iure incidunt recusandae cum unde sint? Architecto,
+        commodi. Ut quam voluptas corporis facilis quia hic ab sapiente
+        voluptatibus qui fugit, iste sequi culpa quisquam assumenda? Fuga
+        voluptates nobis recusandae odit cumque ad sapiente ipsa, praesentium
+        officia ab maxime placeat ipsum accusantium cupiditate laboriosam?
+        Beatae, possimus quasi.
+      </p>
+
+      <div class="form" id="form">
+        <img src="./assets/Mask group (1) 2.png" alt="form" />
+        <div class="card">
+          <form
+            id="contactform"
+            action="sendmail.php"
+            method="post"
+            autocomplete="on"
+          >
+            <h2>Book A Consultant</h2>
+            <p>
+              N/B: This attracts a 2000naira / 5dollar fee for both local and
+              international respectively. please make sure you upload your
+              payment receipt to get attended to
+            </p>
+            <div class="form-row">
+              <label for="name"></label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder=" Name"
+                autocomplete="given-name"
+              />
+            </div>
+            <div class="form-row">
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder=" Email"
+                autocomplete="off"
+              />
+            </div>
+            <div class="form-row">
+              <label for="phonenumber"></label>
+              <input
+                type="number"
+                id="phonenumber"
+                name="phonenumber"
+                placeholder=" Phone number"
+                autocomplete="cc-number"
+              />
+            </div>
+            <div class="form-row">
+              <label for="country"></label>
+              <select id="country" name="country" autocomplete="on">
+                <option value="nigeria">Nigeria</option>
+                <option value="international">International</option>
+              </select>
+            </div>
+            <div class="form-row2">
+              <input type="file" id="file" name="file" label=" Reciept" />
+              <input class="submit" type="submit" value="submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== END OF ABOUT SECTION ===================================== -->
+
+    <!-- ============================== card section SECTION ============ -->
+
+    <div id="reviews">
+      <div class="card-slide">
+        <div class="card">
+          <img src="/assets/1.jpeg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugiat?
+          </p>
+        </div>
+        <div class="card">
+          <img src="/assets/1.jpeg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugiat?
+          </p>
+        </div>
+        <div class="card">
+          <img src="/assets/1.jpeg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugiat?
+          </p>
+        </div>
+        <div class="card">
+          <img src="/assets/1.jpeg" alt="">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, fugiat?
+          </p>
+        </div>
+      </div>
+
+      <div>
+        <span class="sign">1</span>
+        <span class="sign">2</span>
+        <span class="sign">3</span>
+        <span class="sign">4</span>
+      </div>
+    </div>
+
+    <!-- footer begins -->
+    <footer>
+      <div class="container">
+        <h4>Contact/Chat support for help</h4>
+        <div>
+
+          <p>09163944088</p>
+        </div>
+
+        <div>
+          <h6>policy</h6>
+          <h6>terms and condition</h6>
+        </div>
+        <div>
+          <p>copyright 2023</p>
+        </div>
+      </div>
+
+    </footer>
+
+  
+
+    <script src="main.js"></script>
+  </body>
+</html>

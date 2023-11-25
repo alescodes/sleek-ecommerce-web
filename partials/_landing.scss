@@ -1,0 +1,149 @@
+.landing-page {
+  @include gradientBackground;
+  display: flex;
+  flex-direction: row;
+  flex: 1fr 1fr;
+  padding: 2rem;
+  padding-left: 7rem;
+  width: 100%;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+
+  .div-content {
+    width: 35%;
+    
+
+    a {
+      img {
+        width: 20rem;
+        margin-bottom: 4rem;
+      }
+    }
+    h1 {
+      @include linearGradient;
+      display: block;
+      font: 5em sans-serif;
+      margin-left: 3rem;
+      margin-bottom: 3rem;
+    }
+
+    .account {
+      text-decoration: underline;
+      display: block;
+      margin-left: 3rem;
+      font: 1.5em sans-serif;
+      margin-bottom: 1rem;
+      color: $black-color;
+    }
+    .login {
+      text-decoration: underline;
+      display: block;
+      margin-left: 3rem;
+      font: 1.5em sans-serif;
+      margin-bottom: 1rem;
+      color: $black-color
+    }
+    button {
+      @include button;
+      color: $white-color;
+      margin-left: 3rem;
+      width: 150px;
+      height: 60px;
+      margin-top: 1rem;
+      border: none;
+      display:inline;
+      
+
+      a {
+        color: $white-color;
+        place-self: center;
+        padding: 0.5rem;
+      }
+    }
+  }
+
+  .div-carousel {
+    width: 65%;
+    height: 100%;
+    display: flex;
+    .carousel {
+      height: 100%;
+      margin-right: 10rem;
+
+      .carousel-item {
+        width: 200px;
+        height: fit-content;
+    
+
+        img {
+            margin-top: 3rem;
+          height: 700px;
+          width: 350px;
+        }
+      }
+    }
+  }
+}
+
+
+// media query for smaller devices
+
+@media screen and (max-width: 900px) {
+  .landing-page{
+overflow: hidden;
+display: block;
+align-items: center;
+
+
+padding: 0;
+
+.div-content{
+  width: 100%;
+  padding: 0;
+  text-align: center;
+  align-items: center;
+  margin-top: 5rem;
+  
+
+  h1{
+    margin: 0;
+    font-size: 6rem;
+    margin-bottom: 4rem;
+  }
+
+  .account{
+    margin: 0;
+    margin-bottom: 2rem;
+  }
+  .login{
+    margin: 0;
+    margin-bottom: 4rem;
+  }
+  button{
+    margin-left: 0;
+  
+  }
+}
+  }}
+
+  @media screen and (max-width: 900px) {
+    .div-carousel{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      .carousel{
+        height: 50%;
+
+        .carousel-item{
+          width: 50px;
+          img{
+            width: 100px;
+            height: 30px;
+          }
+        }
+      }
+      
+    }}
+  

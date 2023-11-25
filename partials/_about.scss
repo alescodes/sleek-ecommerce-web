@@ -1,0 +1,105 @@
+#about {
+  position: relative;
+  height: 900px;
+
+  top: 1rem;
+
+  h2 {
+    font-size: 50px;
+    color: $secondary-color-variant;
+    padding-top: 3rem;
+  }
+  p {
+    color: $altcolor;
+  }
+
+  .form {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    width: 800px;
+    gap: 4rem;
+    background: $form-color;
+
+    z-index: 1;
+
+    left: 20%;
+    top: 35rem;
+
+    img {
+      width: 300px;
+    }
+    .card {
+      display: inline-block;
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+
+      h2 {
+        color: $secondary-color-variant;
+        margin-bottom: 1rem;
+      }
+      p {
+        color: $altcolor;
+        margin-bottom: 1rem;
+      }
+
+      .form-row {
+        input,
+        select {
+          width: 350px;
+          height: 40px;
+          margin-bottom: 1rem;
+
+          border-color: $altcolor;
+        }
+      }
+
+      .form-row2 {
+        .submit {
+          width: 90px;
+          height: 40px;
+          border: solid;
+
+          background: $white-color;
+        }
+      }
+    }
+  }
+}
+
+
+// media query for smaller devices
+
+@media screen and (max-width: 900px) {
+    #about {
+       align-items: center;
+       margin-bottom: 30rem;
+    
+     
+        .form{
+            display: inline-block;
+            left: 0;
+            right: 0;
+            overflow: hidden;
+            // padding-right: 7rem;
+            width: 350px;
+            
+           
+            left: 5%;
+
+            img{
+                width: 400px;
+            }
+            .card{
+                display: inline-block;
+                width: inherit;
+                h2{
+                    font-size: 35px;
+                }
+                p{
+                    font-size: 10px;
+                    display: inline;
+                }
+            }
+        }
+    }}

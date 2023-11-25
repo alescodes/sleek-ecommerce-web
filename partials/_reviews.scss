@@ -1,0 +1,11 @@
+.card-slide{
+    gap: 3rem;
+    background-clip: border-box;
+    background: $white-color;
+    display: flex;
+
+    .card{
+        padding-top: 15rem;
+    }
+
+}

@@ -1,0 +1,21 @@
+#shopping-cart {
+  display: none;
+}
+#shopping-cart table {
+  margin-top: 20px;
+}
+#shopping-cart table tfoot td:first-child {
+  text-align: right;
+}
+#shopping-cart table tfoot td:first-child:last-child {
+  font-weight: bold;
+}
+#shopping-cart table th {
+  text-align: center;
+}
+#shopping-cart table td {
+  vertical-align: middle;
+}
+#shopping-cart table td:last-child {
+  text-align: right;
+}/*# sourceMappingURL=checkout.css.map */

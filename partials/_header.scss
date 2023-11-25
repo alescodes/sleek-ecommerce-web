@@ -1,0 +1,116 @@
+header {
+  height: 770px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+
+  //   background: rgba($color: $primary-color-variant, $alpha: 0.1);
+
+  margin-bottom: -6rem;
+
+  border-left: none;
+  border-right: none;
+  width: 100vw;
+  position: relative;
+
+  .container {
+    // @include gradientBackground;
+
+    display: grid;
+    grid-template-columns: 40% 60%;
+    gap: 8%;
+    align-items: center;
+    justify-content: space-between;
+    // border: solid 20px $primary-color;
+    border-radius: 50px;
+    padding: 60px 40px;
+    position: relative;
+
+    width: fit-content;
+
+    img {
+      width: 1000px;
+      height: 100%;
+      overflow: hidden;
+      margin-left: 29rem;
+      margin-bottom: 13rem;
+      margin-top: -5rem;
+      position: relative;
+
+      // border-bottom-right-radius: 40%;
+    }
+
+    // border-bottom-left-radius: 40%;
+    // border: solid  whitesmoke;
+    // background: white;
+
+    .header_content {
+      //  @include gradientBackground;
+      margin-left: 4rem;
+      position: absolute;
+      z-index: 1;
+      margin-bottom: 15rem;
+
+      h1 {
+        font-size: 3.5rem;
+        line-height: 1.1;
+        letter-spacing: -3px;
+        margin-bottom: 3rem;
+        color: $secondary-color-variant;
+      }
+      p {
+        margin: 1rem 0 2rem;
+        color: $black-color;
+        font-size: 1.1rem;
+        margin-bottom: 5rem;
+      }
+      a {
+        margin: 10px;
+        color: $white-color;
+      }
+      .btn1 {
+        @include button;
+      }
+    }
+  }
+}
+
+// media query for smaller devices
+
+@media screen and (max-width: 900px) {
+  header {
+    display: flex;
+    justify-content: center;
+    //background-image: url(/assets/syrup.png);
+    // background-image:  url(/assets/istockphoto-1358220059-170667a.webp);
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      flex-wrap: wrap;
+      align-items: center;
+      border-radius: 0;
+      // margin-bottom: 30rem;
+      padding: 5px;
+      // background-image: url(/assets/istockphoto-1358220059-170667a.webp);
+      height: inherit;
+      background: rgba($form-color, 0.7);
+      margin-top: 10rem;
+
+      img {
+        display: none;
+        //position: default; still need to work on this
+      }
+      .header_content {
+        // display: inline-block;
+        margin-top: 5rem;
+        //position: default;
+
+        h1 {
+          font-size: 50px;
+        }
+      }
+    }
+  }
+}
