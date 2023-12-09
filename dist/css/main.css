@@ -17,7 +17,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
   color: #0c031b;
-  background: #fff3e1;
+  background: rgb(234, 230, 230);
   user-select: none;
   overflow-x: hidden;
   padding: 0;
@@ -163,7 +163,7 @@ section > p {
   justify-content: space-around;
 }
 .nav .ul-items2-div .ul-items2 li a {
-  color: rgb(213, 105, 123);
+  color: #801f80;
   border-bottom: solid;
   border-radius: 5%;
 }
