@@ -1,5 +1,5 @@
 .nav {
-  width: 100%;
+  width: 100vw;
   height: 5rem;
   position: fixed;
   z-index: 100;
@@ -12,37 +12,32 @@
   background: transparent;
   padding-bottom: 7rem;
 
-  .ul-items2-div{
-   
+  .ul-items2-div {
     display: flex;
     background: white;
     width: 100vw;
-   
+
     flex-wrap: wrap;
     padding-top: 1rem;
     padding-bottom: 1rem;
     bottom: 1rem;
     top: 0;
 
-    
-
-    .ul-items2{
+    .ul-items2 {
       display: flex;
-      
+
       width: 100vw;
-     
+
       justify-content: space-around;
 
-      li{
-        a{
+      li {
+        a {
           color: rgb(213, 105, 123);
           border-bottom: solid;
-        
+
           border-radius: 5%;
         }
       }
-
-
     }
   }
 
@@ -236,40 +231,34 @@
       flex-direction: row-reverse;
       justify-content: space-evenly;
 
+      .ul-items2-div {
+        display: flex;
+        background: white;
+        width: 100vw;
 
-  .ul-items2-div{
-   
-    display: flex;
-    background: white;
-    width: 100vw;
-   
-    flex-wrap: wrap;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-    bottom: 1rem;
-    top: 0;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        bottom: 1rem;
+        top: 0;
 
-    
+        .ul-items2 {
+          display: flex;
 
-    .ul-items2{
-      display: flex;
-      
-      width: 100vw;
-     
-      justify-content: space-around;
+          width: 100vw;
 
-      li{
-        a{
-          color: pink;
-          border: solid;
-          background: $secondary-color;
-          border-radius: 5%;
+          justify-content: space-around;
+
+          li {
+            a {
+              color: pink;
+              border: solid;
+              background: $secondary-color;
+              border-radius: 5%;
+            }
+          }
         }
       }
-
-
-    }
-  }
 
       .icon-cart {
         left: 95%;
