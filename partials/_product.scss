@@ -5,13 +5,13 @@
   max-width: 100%;
   padding-top: 1rem;
   place-content: center;
-  background: $form-color;
+  background: transparent;
   position: relative;
   top: 4rem;
 
   gap: 20px;
   .item {
-    background: $form-color;
+    background: $white-color;
     width: 500px;
     height: 400px;
     place-content: center;

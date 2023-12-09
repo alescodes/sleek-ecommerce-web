@@ -17,7 +17,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
   color: #0c031b;
-  background: rgb(234, 230, 230);
+  background: rgb(238, 238, 242);
   user-select: none;
   overflow-x: hidden;
   padding: 0;
@@ -535,7 +535,7 @@ header .container .header_content .btn1:hover {
   font-size: 100px;
   color: white;
   cursor: pointer;
-  border-bottom: 5px black solid;
+  border-bottom: 5px #801f80 solid;
   border-radius: 30px;
 }
 .shop a button:hover {
@@ -882,7 +882,7 @@ header .container .header_content .btn1:hover {
   position: absolute;
   width: 800px;
   gap: 4rem;
-  background: #fff8ee;
+  background: rgb(233, 230, 230);
   z-index: 1;
   left: 20%;
   top: 107rem;
@@ -1272,13 +1272,13 @@ header .container .header_content .btn1:hover {
   max-width: 100%;
   padding-top: 1rem;
   place-content: center;
-  background: #fff8ee;
+  background: transparent;
   position: relative;
   top: 4rem;
   gap: 20px;
 }
 .listproduct .item {
-  background: #fff8ee;
+  background: white;
   width: 500px;
   height: 400px;
   place-content: center;
