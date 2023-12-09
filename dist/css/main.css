@@ -1183,12 +1183,12 @@ header .container .header_content .btn1:hover {
 }
 #reviews form div {
   border: 1px solid;
-  background: #fff8ee;
+  background: rgb(230, 222, 222);
 }
 #reviews form label {
   width: 300px;
   height: 3rem;
-  background: #fff8ee;
+  background: rgb(230, 222, 222);
   margin-bottom: 2rem;
 }
 #reviews form label input {
@@ -1345,7 +1345,7 @@ header .container .header_content .btn1:hover {
 
 .cartTab {
   width: 400px;
-  background: #ffb955;
+  background: #a48787;
   color: white;
   position: fixed;
   top: 0;
@@ -1364,7 +1364,7 @@ header .container .header_content .btn1:hover {
   position: absolute;
   top: 600px;
   width: 100%;
-  background: #fff8ee;
+  background: rgb(230, 222, 222);
   border: none;
 }
 .cartTab .btn button {
