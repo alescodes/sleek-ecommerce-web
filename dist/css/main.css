@@ -547,9 +547,11 @@ header .container .header_content .btn1:hover {
     width: 100%;
   }
   .shop a button {
-    height: 100px;
+    height: 60px;
     font-size: 30px;
     font-weight: thin;
+    background: none;
+    color: black;
   }
 }
 .slides {
