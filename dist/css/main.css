@@ -1191,13 +1191,11 @@ header .container .header_content .btn1:hover {
   background: rgb(230, 222, 222);
   margin-bottom: 2rem;
   text-decoration: none;
-  color: rgb(230, 222, 222);
 }
 #reviews form label input {
   border: 1px solid;
   padding: 4rem;
   text-decoration: none;
-  color: rgb(230, 222, 222);
 }
 #reviews form .bx {
   color: #bcc1c7;
