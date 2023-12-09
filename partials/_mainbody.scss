@@ -29,7 +29,7 @@
     display: inline-block;
     height: 2px;
     width: 80%;
-    background: $altcolor;
+    background: rgb(215, 213, 213);
     margin-left: 1rem;
   }
   .first-container {
@@ -41,24 +41,24 @@
 
     .first-content {
       width: 30%;
-      height: 450px;
+      height: 700px;
 
-      margin-top: -1rem;
+      margin-top: 4rem;
 
       h2 {
         font-size: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         font-family: Georgia, "Times New Roman", Times, serif;
         color: $secondary-color-variant;
       }
 
       p {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
       h6 {
         font-size: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
     }
@@ -72,25 +72,25 @@
 
     .second-content {
       width: 30%;
-      height: 450px;
+      height: 600px;
 
       margin-left: 5rem;
-      margin-top: -1rem;
+      
 
       h2 {
         font-size: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         font-family: Georgia, "Times New Roman", Times, serif;
         color: $secondary-color-variant;
       }
 
       p {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
       h6 {
         font-size: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
     }
@@ -104,24 +104,24 @@
 
     .third-content {
       width: 30%;
-      height: 450px;
+      height: 600px;
 
-      margin-top: -1rem;
+      
 
       h2 {
         font-size: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         font-family: Georgia, "Times New Roman", Times, serif;
         color: $secondary-color-variant;
       }
 
       p {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
       h6 {
         font-size: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
     }
@@ -135,25 +135,25 @@
 
     .fourth-content {
       width: 30%;
-      height: 450px;
+      height: 600px;
 
       margin-left: 5rem;
       margin-top: -1rem;
 
       h2 {
         font-size: 3rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         font-family: Georgia, "Times New Roman", Times, serif;
         color: $secondary-color-variant;
       }
 
       p {
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
       h6 {
         font-size: 1rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         color: $altcolor;
       }
     }

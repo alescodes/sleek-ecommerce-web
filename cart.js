@@ -5,8 +5,10 @@ let listProductHTML = document.querySelector(".listproduct");
 let listCartHTML = document.querySelector(".listCart");
 let iconCartSpan = document.querySelector(".icon-cart span");
 
+
 let listproducts = [];
 let carts = [];
+
 
 
 
@@ -30,10 +32,9 @@ const addDataToHTML = () => {
        <img src="${product.image}" alt="">
        <h2>${product.name}</h2>
        <div class="price">
-        #${product.price}</div>
+        ${product.rating}</div>
         <p class="list-line"></p>
-        <p>${product.description}</p>
-        <button class="addCart">Add To Cart</button>
+       
         `;
 
       listProductHTML.appendChild(newProduct);
@@ -85,11 +86,14 @@ const addCartToMemory = () => {
 const addCartToHTML = () => {
   listCartHTML.innerHTML ='';
   let totalQuantity = 0;
+  
+  let totalPrice = 0;
   // i just added this
   // remove if it doesn't work
   if (carts.length > 0) {
     carts.forEach(cart => {
       totalQuantity = totalQuantity + cart.quantity;
+      
       let newCart = document.createElement("div");
       newCart.classList.add("item");
       newCart.dataset.id = cart.product_id;
@@ -118,6 +122,7 @@ const addCartToHTML = () => {
     
     
   }
+  
   iconCartSpan.innerText = totalQuantity;
 } 
 
@@ -171,3 +176,7 @@ const initApp = () => {
     })
 }
 initApp();
+
+// to get the cart total sum
+
+

@@ -46,21 +46,63 @@ function showSlides() {
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
 
-// end of slide show
-// let j;
-// card = [];
-// let card = document.getElementsByClassName('card')
-// let span = document.getElementsByName('span')
-// for(j = 0 ; j<length; j++){
-//   card.style.display = 'none'
-// }
 
-// slideIndex++
-// if(slideIndex > card.length) {slideIndex = 1}
-// for(j = 0; j < span.length; j++)
 
-// card[r-1].style.display = 'flex';
-// setTimeout
+const stars = document.querySelectorAll(".bx");
+console.log(stars);
+
+stars.forEach((star, index1) => {
+  star.addEventListener("mouseover", () => {
+    stars.forEach((star, index2) => {
+      index1 >= index2 ?
+       (star.style.transform = "scale(1.2)"): 
+       (star.style.transform = "scale(1)");
+    });
+    // star.style.transform = "scale(1.5)";
+  });
+  star.addEventListener("mouseout", () => {
+    star.style.transform = "scale(1)";
+  });
+  star.addEventListener("click", () => {
+    stars.forEach((star, index2) => {
+      index1 >= index2
+        ? star.classList.add("active")
+        : star.classList.remove("active");
+    });
+  });
+});
+
+
+
+// for file/receipts
+
+
+  var openFile = function(event) {
+    var input = event.target;
+
+    var reader = new FileReader();
+    reader.onload = function(){
+      var dataURL = reader.result;
+      var output = document.getElementById('output');
+      output.src = dataURL;
+    };
+    reader.readAsDataURL(input.files[0]);
+  };
+
+
+// end of file
+
+
+
+
+// let rating = document.getElementsByClassName('.fa')
+
+// rating.addEventListener('click', () => {
+//   rating.classList.replace('checked', 'fa');
+// })
+
+ 
+// })
 
 
 
@@ -392,11 +434,11 @@ document.addEventListener("copy", (e) => {
 
 // alert when form button is submitted
 
-const form = document.querySelector("form");
-document.addEventListener("submit", (e) => {
-  e.preventDefault();
-  alert("Form Submitted");
-});
+// const form = document.querySelector("form");
+// document.addEventListener("submit", (e) => {
+//   e.preventDefault();
+//   alert("Form Submitted");
+// });
 
 // const navItems = document.querySelector('#nav_items');
 // const openNavBtn = document.querySelector('#open_nav-btn');
