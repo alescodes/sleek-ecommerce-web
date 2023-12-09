@@ -1,67 +1,58 @@
 .new-product {
-    background: white;
-    padding-top: 10rem;
-    padding-bottom: 5rem;
-    
-    align-items: center;
+  background: white;
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+
+  align-items: center;
+  text-align: center;
+
+  h1 {
+    margin-bottom: 5rem;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    margin: auto;
     text-align: center;
-    
+    font-family: arial;
+    display: flex;
+    flex-direction: row;
+    flex: 1fr 1fr 1fr;
+    gap: 5rem;
+    justify-content: center;
 
-    h1{
-        margin-bottom: 5rem;
+    .card1,
+    .card2,
+    .card3 {
+      max-width: 300px;
     }
-    
-    
-    
-
-    
-    .card {
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-        
-        margin: auto;
-        text-align: center;
-        font-family: arial;
-        display: flex;
-        flex-direction: row;
-        flex: 1fr 1fr 1fr;
-        gap: 5rem;
-        justify-content: center;
-        
-
-        .card1, 
-        .card2,
-        .card3 {
-            max-width: 300px;
-            
-        }
-        .card2 {
-            img {
-                height: 200px;
-            }
-        }
-
-        
-        .price {
-            color: $black-color;
-            font-size: 22px;
-          }
-          
-          button {
-            @include button;
-            border: none;
-            outline: 0;
-            padding: 12px;
-            color: white;
-            
-            text-align: center;
-            cursor: pointer;
-            width: 100%;
-            font-size: 18px;
-          
-          
-          &:hover {
-            opacity: 0.7;
-          }}
-    
+    .card2 {
+      img {
+        height: 200px;
+      }
     }
+
+    .price {
+      color: $black-color;
+      font-size: 22px;
+    }
+
+    button {
+      @include button;
+      border: none;
+      outline: 0;
+      padding: 12px;
+      color: white;
+
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 18px;
+
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
 }

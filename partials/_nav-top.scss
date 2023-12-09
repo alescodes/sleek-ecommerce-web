@@ -1,22 +1,20 @@
-.nav-top{
-    justify-content: center;
-    display: flex;
-   align-items: center;
-    padding: 7rem;
-    
-    background: transparent;
-    width: 100vw;
-    gap: 3rem;
-    height: 4rem;
-    flex-wrap: wrap;
-    
-    
+.nav-top {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 7rem;
 
-    
+  background: transparent;
+  width: 100vw;
+  gap: 3rem;
+  height: 4rem;
+  flex-wrap: wrap;
 }
 
 // media query
 
 @media (max-width: 900px) {
-    .nav-top{
-      display: flex;}}
+  .nav-top {
+    display: flex;
+  }
+}

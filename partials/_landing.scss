@@ -12,7 +12,6 @@
 
   .div-content {
     width: 35%;
-    
 
     a {
       img {
@@ -52,8 +51,7 @@
       height: 60px;
       margin-top: 1rem;
       border: none;
-      display:inline;
-      
+      display: inline;
 
       a {
         color: $white-color;
@@ -74,10 +72,9 @@
       .carousel-item {
         width: 200px;
         height: fit-content;
-    
 
         img {
-            margin-top: 3rem;
+          margin-top: 3rem;
           height: 700px;
           width: 350px;
         }
@@ -86,64 +83,64 @@
   }
 }
 
-
 // media query for smaller devices
 
 @media screen and (max-width: 900px) {
-  .landing-page{
-overflow: hidden;
-display: block;
-align-items: center;
+  .landing-page {
+    overflow: hidden;
+    display: block;
+    align-items: center;
+    height: 100vh;
+    padding: 0;
 
+    .div-carousel {
+      display: none;
+    }
 
-padding: 0;
+    .div-content {
+      width: 100%;
+      padding: 0;
+      text-align: center;
+      align-items: center;
+      margin-top: 5rem;
 
-.div-content{
-  width: 100%;
-  padding: 0;
-  text-align: center;
-  align-items: center;
-  margin-top: 5rem;
-  
+      h1 {
+        margin: 0;
+        font-size: 6rem;
+        margin-bottom: 8rem;
+      }
 
-  h1{
-    margin: 0;
-    font-size: 6rem;
-    margin-bottom: 8rem;
-  }
-
-  // .account{
-  //   margin: 0;
-  //   margin-bottom: 2rem;
-  // }
-  // .login{
-  //   margin: 0;
-  //   margin-bottom: 4rem;
-  // }
-  button{
-    margin-left: 0;
-   
+      // .account{
+      //   margin: 0;
+      //   margin-bottom: 2rem;
+      // }
+      // .login{
+      //   margin: 0;
+      //   margin-bottom: 4rem;
+      // }
+      button {
+        margin-left: 0;
+      }
+    }
   }
 }
-  }}
 
-  @media screen and (max-width: 900px) {
-    .div-carousel{
-      width: 100%;
-      display: flex;
-      justify-content: center;
+@media screen and (max-width: 900px) {
+  .div-carousel {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 
-      .carousel{
-        height: 50%;
+    .carousel {
+      height: 50%;
 
-        .carousel-item{
-          width: 50px;
-          img{
-            width: 100px;
-            height: 30px;
-          }
+      .carousel-item {
+        width: 50px;
+        img {
+          width: 100px;
+          height: 30px;
         }
       }
-      
-    }}
-  
+    }
+  }
+}

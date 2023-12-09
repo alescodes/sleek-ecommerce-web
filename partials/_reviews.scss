@@ -1,110 +1,87 @@
-#reviews{
+#reviews {
+  padding-top: 8rem;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+  background: $white-color;
 
-    padding-top: 8rem;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 4rem;
-    background: $white-color;
-    
-
-    form{
-
-        
-        div{
-            border: 1px solid;
-            background: $form-color;
-        }
-        label{
-            width: 300px;
-            height: 3rem;
-            background: $form-color;
-            margin-bottom: 2rem;
-            
-            
-           
-            
-            input{
-             border: 1px solid; 
-             padding: 4rem;  
-             
-            }
-        }
-
-        .bx{
-            
-                
-                color: #bcc1c7;
-                font-size: 30px;
-               
-              &:hover {
-                cursor: pointer;
-              }
-        }
-
-        .active{
-            
-              
-                
-                color: #ffb175 !important;
-                font-size: 30px;
-                transform: scale(1.2) !important;
-              
-        }
-          
-        textarea{
-            text-align: center;
-            padding-top: 2rem;
-            height: 150px;
-            width: 500px;
-        }
-        h2{
-            display: block;
-            margin-bottom: 2rem;
-            text-align: center;
-        }
-        .submit{
-            margin: 1rem;
-            @include button;
-        }
+  form {
+    div {
+      border: 1px solid;
+      background: $form-color;
     }
-    
+    label {
+      width: 300px;
+      height: 3rem;
+      background: $form-color;
+      margin-bottom: 2rem;
 
+      input {
+        border: 1px solid;
+        padding: 4rem;
+      }
+    }
+
+    .bx {
+      color: #bcc1c7;
+      font-size: 30px;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+
+    .active {
+      color: #ffb175 !important;
+      font-size: 30px;
+      transform: scale(1.2) !important;
+    }
+
+    textarea {
+      text-align: center;
+      padding-top: 2rem;
+      height: 150px;
+      width: 500px;
+    }
+    h2 {
+      display: block;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+    .submit {
+      margin: 1rem;
+      @include button;
+    }
+  }
 }
 
-// media 
-
+// media
 
 @media screen and (max-width: 900px) {
-    
-        #reviews{
-            width: 100%;
-          
-            form{
-                width: 80%;
-                label{
-                    width: 100%; 
-                }
-        
-                .fa{
-                    color: rgb(197, 189, 189);
-                    cursor: pointer;
-                }
-                .checked{
-                    color: goldenrod;
-                }
-        
-                textarea{
-                   
-                    width: 100%;
-                }
-                
-                p{
-                    margin-top: 1rem;
-                }
-                
-            }
-            
-        
-        }
+  #reviews {
+    width: 100%;
 
+    form {
+      width: 80%;
+      label {
+        width: 100%;
+      }
+
+      .fa {
+        color: rgb(197, 189, 189);
+        cursor: pointer;
+      }
+      .checked {
+        color: goldenrod;
+      }
+
+      textarea {
+        width: 100%;
+      }
+
+      p {
+        margin-top: 1rem;
+      }
     }
+  }
+}

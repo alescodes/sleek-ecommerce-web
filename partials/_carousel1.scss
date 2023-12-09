@@ -1,22 +1,15 @@
 .div-carousel {
-    .carousel {
-      height: 500px;
-  
-      .carousel-item {
+  .carousel {
+    height: 500px;
+
+    .carousel-item {
+      width: 200px;
+      height: 100px;
+
+      img {
+        height: 300px;
         width: 200px;
-        height: 100px;
-        
-  
-        img {
-          height: 300px;
-          width: 200px;
-        }
-  
-  
       }
     }
   }
-  
-  
-  
-  
+}

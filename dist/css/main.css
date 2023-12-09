@@ -1078,7 +1078,11 @@ header .container .header_content .btn1:hover {
     overflow: hidden;
     display: block;
     align-items: center;
+    height: 100vh;
     padding: 0;
+  }
+  .landing-page .div-carousel {
+    display: none;
   }
   .landing-page .div-content {
     width: 100%;

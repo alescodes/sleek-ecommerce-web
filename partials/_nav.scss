@@ -12,8 +12,6 @@
   background: transparent;
   padding-bottom: 6rem;
 
- 
-
   .container {
     align-items: center;
     display: flex;
@@ -30,39 +28,31 @@
     //   border: 3px solid transparent;
     // }
 
-    
-      .icon-cart {
-        position: relative;
+    .icon-cart {
+      position: relative;
 
-       .bx {
+      .bx {
         font-size: 40px;
-       }
-        span {
-          display: flex;
-          width: 25px;
-          height: 25px;
-          background: $icon-color;
-          justify-content: center;
-          align-items: center;
-          color: $white-color;
-          border-radius: 48%;
-          position: absolute;
-          left: 1.5rem ;
-          bottom: 27px;
-        }
       }
-
-    
-
-    
-
-     
-
+      span {
+        display: flex;
+        width: 25px;
+        height: 25px;
+        background: $icon-color;
+        justify-content: center;
+        align-items: center;
+        color: $white-color;
+        border-radius: 48%;
+        position: absolute;
+        left: 1.5rem;
+        bottom: 27px;
+      }
+    }
 
     .my-button {
       background-color: transparent;
       border: 10px;
-      
+
       cursor: pointer;
       font-size: 30px;
       left: 0;
@@ -73,7 +63,6 @@
       top: 0;
       padding-left: 1rem;
       z-index: 1;
-      
 
       &.my-button:focus {
         outline: none;
@@ -103,8 +92,6 @@
           color: $white-color;
         }
       }
-
-     
     }
   }
   &.active {
@@ -114,7 +101,7 @@
 
     ul {
       #product {
-      color: $secondary-color;
+        color: $secondary-color;
       }
       li {
         a {
@@ -137,20 +124,16 @@
 
 @media (max-width: 1000px) {
   .nav {
-    
-
     // &.active {
     //   background: $primary-color;
     //   color: $white-color;
     //   border: solid rgba($black-color, 0.1);}
-  
 
     .container {
       width: fit-content;
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-evenly;
-      
 
       .nav_logo {
         display: flex;
@@ -159,7 +142,6 @@
 
       .my-button {
         display: block;
-        
       }
 
       ul {
@@ -193,14 +175,11 @@
             text-decoration: underline;
             border: bold;
           }
-        }}
-        .show {
-          display: flex;
         }
-        
-      
-
-        
+      }
+      .show {
+        display: flex;
+      }
     }
   }
 }
@@ -211,41 +190,34 @@
 //   }
 // }
 
-
-
 @media (max-width: 900px) {
   .nav {
     width: 100%;
-    
+
     // display: flex;
-    
-    
 
     .container {
       width: fit-content;
       display: flex;
       flex-direction: row-reverse;
       justify-content: space-evenly;
-      
 
       .icon-cart {
         left: 95%;
         bottom: 9px;
-        
 
-       .bx {
-        font-size: 30px;
-       }
+        .bx {
+          font-size: 30px;
+        }
         span {
-         width: 15px;
-         height: 15px;
-         border-radius: 40px;
-         left: 20px;
-         bottom: 25px;
-         font-size: 8px;
+          width: 15px;
+          height: 15px;
+          border-radius: 40px;
+          left: 20px;
+          bottom: 25px;
+          font-size: 8px;
         }
       }
-      
 
       .nav_logo {
         display: flex;
@@ -259,7 +231,6 @@
 
       .my-button {
         display: block;
-        
       }
 
       ul {
@@ -270,8 +241,6 @@
         margin-top: 25rem;
         color: $white-color;
         position: absolute;
-        
-        
 
         li {
           // padding-bottom: 1rem;
@@ -296,14 +265,11 @@
             text-decoration: underline;
             border: bold;
           }
-        }}
-        .show {
-          display: flex;
-          
         }
-      
-
-        
+      }
+      .show {
+        display: flex;
+      }
     }
   }
 }

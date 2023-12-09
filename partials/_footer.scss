@@ -1,29 +1,23 @@
-footer{
-background: $black-color;
-color: $white-color;
-display: block;
-gap: 2rem;
+footer {
+  background: $black-color;
+  color: $white-color;
+  display: block;
+  gap: 2rem;
 
-
-
-.container{
+  .container {
     gap: 2rem;
     display: block;
     text-align: center;
     overflow: hidden;
 
-
-    h4{
-        margin-bottom: 3rem;
-        margin-top: 9rem;
+    h4 {
+      margin-bottom: 3rem;
+      margin-top: 9rem;
     }
 
-    h6{
-        margin-bottom: 3rem;
-        margin-top: 3rem;
+    h6 {
+      margin-bottom: 3rem;
+      margin-top: 3rem;
     }
+  }
 }
-   
-
-    
-    }
