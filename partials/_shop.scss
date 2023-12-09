@@ -10,15 +10,16 @@
     text-decoration: none;
 
     button {
-      background: gray;
-      font-size: 130px;
+      background: $secondary-color-variant;
+      font-size: 100px;
       color: white;
       cursor: pointer;
       border-bottom: 5px black solid;
       border-radius: 30px;
 
       &:hover {
-        background: $secondary-color-variant;
+        background: gray;
+        
       }
     }
   }
@@ -28,9 +29,15 @@
   .shop {
     width: 100%;
 
-    button {
-      padding: 2px;
-      width: 95%;
+    a{
+
+        button {
+         
+          height: 100px;
+          font-size: 30px;
+          font-weight: thin;
+        }
     }
+
   }
 }
