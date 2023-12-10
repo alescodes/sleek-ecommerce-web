@@ -106,7 +106,7 @@
 
 // media query for tablets devices
 
-@media screen and (max-width: 1500px) {
+@media screen and (min-width: 1100px) {
   #about {
     align-items: center;
     margin-bottom: 30rem;
