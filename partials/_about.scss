@@ -103,3 +103,30 @@
     }
   }
 }
+
+// media query for tablets devices
+
+@media screen and (max-width: 1500px) {
+  #about {
+    align-items: center;
+    margin-bottom: 30rem;
+    height: 2000px;
+
+    .form {
+      display: inline-block;
+      place-content: center;
+     
+      overflow: hidden;
+      // padding-right: 7rem;
+      
+      top: 120rem;
+
+      left: 12%;     
+      .card {
+        display: inline-block;
+        width: inherit;
+      
+      }
+    }
+  }
+}
