@@ -1,6 +1,7 @@
 #about {
   position: relative;
   height: 1900px;
+  @include gradientBackground;
 
   top: 1rem;
 

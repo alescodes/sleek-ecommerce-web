@@ -5,6 +5,8 @@
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
+  
+  
 
   
   a {
@@ -12,20 +14,22 @@
     border: 1px  $white-color solid;
     width: 100px;
     height: 100px;
-    color: white;
+    color: $black-color;
     border-radius: 5px;
     @include button;
+    @include gradientBackground;
 
     button {
-      background: $secondary-color-variant;
+     
       font-size: 50px;
-      color: white;
-      cursor: pointer
-      ;
+      color: $black-color;
+      cursor: pointer;
+      @include gradientBackground;
+      
       
 
       &:hover {
-        background: lighten($secondary-color, 10%);
+        @include gradientBackground;
         
       }
     }
@@ -37,14 +41,15 @@
     width: 100%;
 
     a{
-
+      height: 40px;
+      @include gradientBackground;
         button {
          
-          height: 60px;
-          font-size: 30px;
+         
+          font-size: 20px;
           font-weight: thin;
           background: none;
-          color: $white-color;
+          color: $black-color;
         }
     }
 
