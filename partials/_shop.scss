@@ -5,20 +5,26 @@
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
-
+  
   a {
     text-decoration: none;
+    border: 1px  $black-color solid;
+    width: 100px;
+    height: 100px;
+    color: white;
+    border-radius: 5px;
+    @include button;
 
     button {
       background: $secondary-color-variant;
-      font-size: 100px;
+      font-size: 50px;
       color: white;
-      cursor: pointer;
-      border-bottom: 5px $secondary-color solid;
-      border-radius: 30px;
+      cursor: pointer
+      ;
+      
 
       &:hover {
-        background: gray;
+        background: lighten($secondary-color, 10%);
         
       }
     }

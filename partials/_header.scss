@@ -93,11 +93,11 @@ header {
       align-items: center;
       border-radius: 0;
       // margin-bottom: 30rem;
-      padding: 5px;
+      padding: 3px;
       // background-image: url(/assets/istockphoto-1358220059-170667a.webp);
       height: inherit;
-      background: rgb(249, 245, 245);
-      margin-top: 10rem;
+      background: rgb(243, 240, 240);
+      top: 5rem;
 
       img {
         display: none;
@@ -105,8 +105,9 @@ header {
       }
       .header_content {
         // display: inline-block;
-        margin-top: 9rem;
+        top: -2rem;
         //position: default;
+        
 
         h1 {
           font-size: 50px;

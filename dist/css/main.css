@@ -17,7 +17,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.5rem;
   color: #0c031b;
-  background: rgb(238, 238, 242);
+  background: rgb(251, 250, 250);
   user-select: none;
   overflow-x: hidden;
   padding: 0;
@@ -494,16 +494,16 @@ header .container .header_content .btn1:hover {
     flex-wrap: wrap;
     align-items: center;
     border-radius: 0;
-    padding: 5px;
+    padding: 3px;
     height: inherit;
-    background: rgb(249, 245, 245);
-    margin-top: 10rem;
+    background: rgb(243, 240, 240);
+    top: 5rem;
   }
   header .container img {
     display: none;
   }
   header .container .header_content {
-    margin-top: 9rem;
+    top: -2rem;
   }
   header .container .header_content h1 {
     font-size: 50px;
@@ -529,17 +529,39 @@ header .container .header_content .btn1:hover {
 }
 .shop a {
   text-decoration: none;
+  border: 1px #0c031b solid;
+  width: 100px;
+  height: 100px;
+  color: white;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-radius: 0.4rem;
+  width: fit-content;
+  background: #801f80;
+  color: white;
+  cursor: pointer;
+  transition: all 400ms ease;
+}
+.shop a.btn1 {
+  background: #448ec4;
+}
+.shop a.btn1:hover {
+  background: #92bddc;
+  box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
+}
+.shop a:hover {
+  background: #ce37ce;
+  box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
 }
 .shop a button {
   background: #831c87;
-  font-size: 100px;
+  font-size: 50px;
   color: white;
   cursor: pointer;
-  border-bottom: 5px #801f80 solid;
-  border-radius: 30px;
 }
 .shop a button:hover {
-  background: gray;
+  background: #a929a9;
 }
 
 @media screen and (max-width: 900px) {
