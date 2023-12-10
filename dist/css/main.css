@@ -529,7 +529,7 @@ header .container .header_content .btn1:hover {
 }
 .shop a {
   text-decoration: none;
-  border: 1px #0c031b solid;
+  border: 1px white solid;
   width: 100px;
   height: 100px;
   color: white;
@@ -573,7 +573,7 @@ header .container .header_content .btn1:hover {
     font-size: 30px;
     font-weight: thin;
     background: none;
-    color: black;
+    color: white;
   }
 }
 .slides {

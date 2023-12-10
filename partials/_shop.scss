@@ -5,10 +5,11 @@
   margin-top: 3rem;
   display: flex;
   flex-wrap: wrap;
+
   
   a {
     text-decoration: none;
-    border: 1px  $black-color solid;
+    border: 1px  $white-color solid;
     width: 100px;
     height: 100px;
     color: white;
@@ -43,7 +44,7 @@
           font-size: 30px;
           font-weight: thin;
           background: none;
-          color: black;
+          color: $white-color;
         }
     }
 
