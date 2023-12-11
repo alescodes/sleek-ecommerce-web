@@ -5,14 +5,14 @@
 :root{
    /*========== Colors ==========*/
    /*Color mode HSL(hue, saturation, lightness)*/
-   --first-color: hsl(38, 92%, 58%);
-   --first-color-light: hsl(38, 100%, 78%);
+   --first-color: rgb(232, 137, 224);
+   --first-color-light: rgb(175, 138, 163);
    --first-color-alt: hsl(32, 75%, 50%);
-   --second-color: hsl(195, 75%, 52%);
-   --dark-color: hsl(212, 40%, 12%);
+   --second-color: rgb(127, 126, 141);
+   --dark-color: white;
    --white-color: hsl(212, 4%, 95%);
-   --body-color: hsl(212, 42%, 15%);
-   --container-color: hsl(212, 42%, 20%);
+   --body-color: hsl(294, 79%, 18%);
+   --container-color: rgb(115, 9, 115);
 
    /*========== Font and typography ==========*/
    /*.5rem = 8px | 1rem = 16px ...*/

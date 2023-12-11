@@ -1400,14 +1400,14 @@ header .container .header_content .btn1:hover {
 :root {
   /*========== Colors ==========*/
   /*Color mode HSL(hue, saturation, lightness)*/
-  --first-color: hsl(38, 92%, 58%);
-  --first-color-light: hsl(38, 100%, 78%);
+  --first-color: rgb(232, 137, 224);
+  --first-color-light: rgb(175, 138, 163);
   --first-color-alt: hsl(32, 75%, 50%);
-  --second-color: hsl(195, 75%, 52%);
-  --dark-color: hsl(212, 40%, 12%);
+  --second-color: rgb(127, 126, 141);
+  --dark-color: white;
   --white-color: hsl(212, 4%, 95%);
-  --body-color: hsl(212, 42%, 15%);
-  --container-color: hsl(212, 42%, 20%);
+  --body-color: hsl(294, 79%, 18%);
+  --container-color: rgb(115, 9, 115);
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
   --body-font: "Bai Jamjuree", sans-serif;
@@ -1449,7 +1449,8 @@ header .container .header_content .btn1:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 70vh;
+  margin-bottom: 5rem;
 }
 
 .card__container {
@@ -1505,6 +1506,7 @@ header .container .header_content .btn1:hover {
 .card__description {
   font-weight: 500;
   margin-bottom: 1.75rem;
+  color: white;
 }
 .card__button {
   display: inline-block;
@@ -1539,7 +1541,7 @@ header .container .header_content .btn1:hover {
 }
 
 .swiper-pagination-bullet {
-  background-color: hsl(212, 32%, 40%);
+  background-color: purple;
   opacity: 1;
 }
 
