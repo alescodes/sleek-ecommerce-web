@@ -497,7 +497,7 @@ header .container .header_content .btn1:hover {
     padding: 3px;
     height: inherit;
     background: rgb(243, 240, 240);
-    top: 5rem;
+    top: 8rem;
   }
   header .container img {
     display: none;
@@ -825,7 +825,7 @@ header .container .header_content .btn1:hover {
   }
   #main .first-container img {
     display: block;
-    margin: 0;
+    margin-top: 1rem;
     width: 80%;
     height: 200px;
   }
