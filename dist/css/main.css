@@ -693,9 +693,10 @@ header .container .header_content .btn1:hover {
 }
 #main {
   margin-top: -0.1rem;
+  align-items: center;
 }
 #main img {
-  width: 55%;
+  width: 50%;
   height: 600px;
 }
 #main .linkpage {
@@ -727,6 +728,7 @@ header .container .header_content .btn1:hover {
   align-items: center;
   margin-bottom: 4rem;
   gap: 4rem;
+  place-content: center;
 }
 #main .first-container .first-content {
   width: 30%;
@@ -754,6 +756,7 @@ header .container .header_content .btn1:hover {
   align-items: center;
   gap: 4rem;
   margin-bottom: 4rem;
+  place-content: center;
 }
 #main .second-container .second-content {
   width: 30%;
@@ -781,6 +784,7 @@ header .container .header_content .btn1:hover {
   align-items: center;
   gap: 4rem;
   margin-bottom: 4rem;
+  place-content: center;
 }
 #main .third-container .third-content {
   width: 30%;
@@ -807,6 +811,7 @@ header .container .header_content .btn1:hover {
   align-items: center;
   gap: 4rem;
   margin-bottom: 4rem;
+  place-content: center;
 }
 #main .fourth-container .fourth-content {
   width: 30%;
@@ -1358,11 +1363,9 @@ header .container .header_content .btn1:hover {
 }
 .listproduct .item {
   background: white;
-  width: 500px;
+  width: 400px;
   height: 400px;
-  place-content: center;
   text-align: center;
-  justify-content: center;
   margin-bottom: 5rem;
 }
 .listproduct .item .price {
@@ -1418,8 +1421,9 @@ header .container .header_content .btn1:hover {
   background: green;
 }
 .listproduct .item img {
-  width: 100%;
+  width: 80%;
   height: 60%;
+  margin-left: 10%;
 }
 
 /*=============== GOOGLE FONTS ===============*/

@@ -12,12 +12,12 @@
   gap: 20px;
   .item {
     background: $white-color;
-    width: 500px;
+    width: 400px;
     height: 400px;
-    place-content: center;
+    // place-content: center;
     text-align: center;
 
-    justify-content: center;
+    // justify-content: center;
     margin-bottom: 5rem;
 
     .price {
@@ -63,8 +63,9 @@
     }
 
     img {
-      width: 100%;
+      width: 80%;
       height: 60%;
+      margin-left: 10%;
       // filter: drop-shadow(0 50px 20px rgba($black-color, 0.3));
     }
   }

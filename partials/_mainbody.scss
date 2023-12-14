@@ -1,8 +1,9 @@
 #main {
   margin-top: -0.1rem;
+  align-items: center;
 
   img {
-    width: 55%;
+    width: 50%;
     height: 600px;
   }
 
@@ -38,6 +39,7 @@
     align-items: center;
     margin-bottom: 4rem;
     gap: 4rem;
+    place-content: center;
 
     .first-content {
       width: 30%;
@@ -69,6 +71,7 @@
     align-items: center;
     gap: 4rem;
     margin-bottom: 4rem;
+    place-content: center;
 
     .second-content {
       width: 30%;
@@ -100,6 +103,7 @@
     align-items: center;
     gap: 4rem;
     margin-bottom: 4rem;
+    place-content: center;
 
     .third-content {
       width: 30%;
@@ -129,6 +133,7 @@
     align-items: center;
     gap: 4rem;
     margin-bottom: 4rem;
+    place-content: center;
 
     .fourth-content {
       width: 30%;
