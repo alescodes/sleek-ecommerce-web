@@ -503,7 +503,7 @@ header .container .header_content .btn1:hover {
     top: 8rem;
   }
   header .container .home-video {
-    display: block;
+    display: none;
     height: inherit;
   }
   header .container img {
@@ -534,7 +534,7 @@ header .container .header_content .btn1:hover {
     top: 8rem;
   }
   header .container .home-video {
-    display: block;
+    display: none;
   }
   header .container img {
     display: none;
