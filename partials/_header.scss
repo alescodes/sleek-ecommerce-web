@@ -30,6 +30,10 @@ header {
    height: 75vw;
     width: fit-content;
 
+    .home-video{
+      display: none;
+    }
+
     img {
       width: 1000px;
       height: 100%;
@@ -104,6 +108,11 @@ header {
       background: rgb(243, 240, 240);
       top: 8rem;
 
+      .home-video{
+        display: block;
+        height: inherit;
+      }
+
       img {
         display: none;
         //position: default; still need to work on this
@@ -144,6 +153,10 @@ header {
       height: inherit;
       background: rgb(243, 240, 240);
       top: 8rem;
+
+      .home-video{
+        display: block;
+      }
       
 
       img {

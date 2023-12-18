@@ -428,6 +428,9 @@ header .container {
   height: 75vw;
   width: fit-content;
 }
+header .container .home-video {
+  display: none;
+}
 header .container img {
   width: 1000px;
   height: 100%;
@@ -499,6 +502,10 @@ header .container .header_content .btn1:hover {
     background: rgb(243, 240, 240);
     top: 8rem;
   }
+  header .container .home-video {
+    display: block;
+    height: inherit;
+  }
   header .container img {
     display: none;
   }
@@ -525,6 +532,9 @@ header .container .header_content .btn1:hover {
     height: inherit;
     background: rgb(243, 240, 240);
     top: 8rem;
+  }
+  header .container .home-video {
+    display: block;
   }
   header .container img {
     display: none;
