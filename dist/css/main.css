@@ -489,6 +489,7 @@ header .container .header_content .btn1:hover {
   header {
     display: flex;
     justify-content: center;
+    top: 1.5rem;
   }
   header .container {
     display: flex;
