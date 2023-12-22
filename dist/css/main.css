@@ -302,7 +302,7 @@ section > p {
     width: fit-content;
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-evenly;
+    justify-content: space-around;
   }
   .nav .container .ul-items2-div {
     display: flex;
@@ -341,9 +341,12 @@ section > p {
   }
   .nav .container .nav_logo {
     display: flex;
-    justify-content: flex-end;
-    margin-bottom: 20px;
-    margin-right: 50px;
+    justify-content: end;
+    margin-bottom: 1rem;
+    margin-left: 14rem;
+  }
+  .nav .container .nav_logo img {
+    width: 200px;
   }
   .nav .container .my-button {
     display: block;

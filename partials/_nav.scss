@@ -154,7 +154,7 @@
 @media (max-width: 1100px) {
   .nav {
     // &.active {
-    //   background: $primary-color;
+      // background: $primary-color;
     //   color: $white-color;
     //   border: solid rgba($black-color, 0.1);}
 
@@ -223,15 +223,18 @@
   .nav {
     width: 100%;
   
+  
    // place-items: center;
 
-    // display: flex;
+    
 
     .container {
       width: fit-content;
       display: flex;
       flex-direction: row-reverse;
-      justify-content: space-evenly;
+      justify-content: space-around;
+      
+     
       
 
       .ul-items2-div {
@@ -267,6 +270,7 @@
       .icon-cart {
         left: 95%;
         bottom: 9px;
+        
 
         .bx {
           font-size: 30px;
@@ -283,12 +287,18 @@
 
       .nav_logo {
         display: flex;
-        justify-content: flex-end;
-        margin-bottom: 20px;
-        margin-right: 50px;
+        justify-content: end;
+        margin-bottom: 1rem;
+        margin-left: 14rem;
         // position: absolute;
-        // left: 50%;
+        // left: 0;
+        // right: 0;
         // bottom: 50px;
+        
+        img{
+          width: 200px;
+        }
+        
       }
 
       .my-button {
