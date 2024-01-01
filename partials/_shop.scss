@@ -2,7 +2,7 @@
   text-align: center;
   text-decoration: none;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 7rem;
   display: flex;
   flex-wrap: wrap;
   
@@ -12,28 +12,28 @@
   
   a {
     text-decoration: none;
-    border: 1px  $white-color solid;
+    // border: 1px  $white-color solid;
     // width: 100px;
     // height: 100px;
     color: $black-color;
-    border-radius: 5px;
-    @include button;
+    // border-radius: 5px;
+    // @include button;
     // @include gradientBackground;
 
-    button {
+    // button {
      
-      font-size: 50px;
-      color: $black-color;
-      cursor: pointer;
-      // @include gradientBackground;
+    //   font-size: 50px;
+    //   color: $black-color;
+    //   cursor: pointer;
+    //   // @include gradientBackground;
       
       
 
-      &:hover {
-        @include gradientBackground;
+    //   // &:hover {
+    //   //   @include gradientBackground;
         
-      }
-    }
+    //   // }
+    // }
   }
 }
 
@@ -43,6 +43,8 @@
     margin-top: 1px;
     height: 500px;
     border: none;
+    margin-top: 7rem;
+    
     
 
     a{

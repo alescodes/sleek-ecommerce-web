@@ -122,11 +122,9 @@ section > p {
   justify-content: center;
   display: flex;
   align-items: center;
-  padding-top: 9.8rem;
   background: transparent;
   width: 100vw;
   gap: 3rem;
-  height: 4rem;
   flex-wrap: wrap;
 }
 
@@ -550,7 +548,7 @@ header .container .header_content .btn1:hover {
 }
 .featured {
   text-align: center;
-  margin-top: 45rem;
+  margin-top: 15rem;
 }
 .featured h2 {
   font-size: 50px;
@@ -567,42 +565,12 @@ header .container .header_content .btn1:hover {
   text-align: center;
   text-decoration: none;
   justify-content: center;
-  margin-top: 3rem;
+  margin-top: 7rem;
   display: flex;
   flex-wrap: wrap;
 }
 .shop a {
   text-decoration: none;
-  border: 1px white solid;
-  color: #0c031b;
-  border-radius: 5px;
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-radius: 0.4rem;
-  width: fit-content;
-  background: #801f80;
-  color: white;
-  cursor: pointer;
-  transition: all 400ms ease;
-}
-.shop a.btn1 {
-  background: #448ec4;
-}
-.shop a.btn1:hover {
-  background: #92bddc;
-  box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
-}
-.shop a:hover {
-  background: #ce37ce;
-  box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
-}
-.shop a button {
-  font-size: 50px;
-  color: #0c031b;
-  cursor: pointer;
-}
-.shop a button:hover {
-  background: linear-gradient(-286deg, white 10%, #f4fbff, white 70%, #f7ddf8);
   color: #0c031b;
 }
 
@@ -612,6 +580,7 @@ header .container .header_content .btn1:hover {
     margin-top: 1px;
     height: 500px;
     border: none;
+    margin-top: 7rem;
   }
   .shop a {
     background: linear-gradient(-286deg, white 10%, #f4fbff, white 70%, #f7ddf8);
