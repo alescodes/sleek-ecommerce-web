@@ -1,8 +1,9 @@
 header {
-  height: 770px;
+  // height: 770px;
   display: grid;
   place-items: center;
   overflow: hidden;
+  padding-top: 6.9rem;
 
     // background: rgba($color: $primary-color-variant, $alpha: 0.1);
 
@@ -91,10 +92,16 @@ header {
   header {
     display: flex;
     justify-content: center;
-    top: 1.5rem;
+
+    .img1{
+      height: 300px;
+      width: 400px;
+    }
+    
+  
    
-    //background-image: url(/assets/syrup.png);
-    // background-image:  url(/assets/istockphoto-1358220059-170667a.webp);
+    // background-image: url(/assets/syrup.png);
+     // background-image:  url(/assets/istockphoto-1358220059-170667a.webp);
 
     .container {
       display: flex;
@@ -105,20 +112,19 @@ header {
       border-radius: 0;
       // margin-bottom: 30rem;
       padding: 3px;
-      // background-image: url(/assets/istockphoto-1358220059-170667a.webp);
-      height: inherit;
-      background: rgb(243, 240, 240);
-      top: 8rem;
+      
+      //background-image: url(/assets/4A6F1BA1-89A3-4510-872F-C980426BEECB.jpg);
+      
+      
+      
+     top: 8rem;
 
       .home-video{
         display: none;
         height: inherit;
       }
 
-      img {
-        display: none;
-        //position: default; still need to work on this
-      }
+      
       .header_content {
         // display: inline-block;
         top: -2rem;

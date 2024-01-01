@@ -7,24 +7,25 @@
   flex-wrap: wrap;
   
   
+  
 
   
   a {
     text-decoration: none;
     border: 1px  $white-color solid;
-    width: 100px;
-    height: 100px;
+    // width: 100px;
+    // height: 100px;
     color: $black-color;
     border-radius: 5px;
     @include button;
-    @include gradientBackground;
+    // @include gradientBackground;
 
     button {
      
       font-size: 50px;
       color: $black-color;
       cursor: pointer;
-      @include gradientBackground;
+      // @include gradientBackground;
       
       
 
@@ -38,11 +39,22 @@
 
 @media screen and (max-width: 900px) {
   .shop {
-    width: 100%;
+    width: 100vw;
+    margin-top: 1px;
+    height: 500px;
+    border: none;
+    
 
     a{
-      height: 40px;
+      // height: 40px;
       @include gradientBackground;
+      border: none;
+      margin: none;
+
+      img{
+        width: 500px;
+        height: 400px;
+      }
         button {
          
          

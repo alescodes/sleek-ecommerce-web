@@ -409,10 +409,10 @@ section > p {
 }
 
 header {
-  height: 770px;
   display: grid;
   place-items: center;
   overflow: hidden;
+  padding-top: 6.9rem;
   margin-bottom: -6rem;
   border-left: none;
   border-right: none;
@@ -492,7 +492,10 @@ header .container .header_content .btn1:hover {
   header {
     display: flex;
     justify-content: center;
-    top: 1.5rem;
+  }
+  header .img1 {
+    height: 300px;
+    width: 400px;
   }
   header .container {
     display: flex;
@@ -502,16 +505,11 @@ header .container .header_content .btn1:hover {
     align-items: center;
     border-radius: 0;
     padding: 3px;
-    height: inherit;
-    background: rgb(243, 240, 240);
     top: 8rem;
   }
   header .container .home-video {
     display: none;
     height: inherit;
-  }
-  header .container img {
-    display: none;
   }
   header .container .header_content {
     top: -2rem;
@@ -552,7 +550,7 @@ header .container .header_content .btn1:hover {
 }
 .featured {
   text-align: center;
-  margin-top: 5rem;
+  margin-top: 45rem;
 }
 .featured h2 {
   font-size: 50px;
@@ -560,6 +558,11 @@ header .container .header_content .btn1:hover {
   font-weight: thin;
 }
 
+@media screen and (max-width: 900px) {
+  .featured {
+    margin-top: 5px;
+  }
+}
 .shop {
   text-align: center;
   text-decoration: none;
@@ -571,8 +574,6 @@ header .container .header_content .btn1:hover {
 .shop a {
   text-decoration: none;
   border: 1px white solid;
-  width: 100px;
-  height: 100px;
   color: #0c031b;
   border-radius: 5px;
   display: inline-block;
@@ -583,8 +584,6 @@ header .container .header_content .btn1:hover {
   color: white;
   cursor: pointer;
   transition: all 400ms ease;
-  background: linear-gradient(-286deg, white 10%, #f4fbff, white 70%, #f7ddf8);
-  color: #0c031b;
 }
 .shop a.btn1 {
   background: #448ec4;
@@ -601,8 +600,6 @@ header .container .header_content .btn1:hover {
   font-size: 50px;
   color: #0c031b;
   cursor: pointer;
-  background: linear-gradient(-286deg, white 10%, #f4fbff, white 70%, #f7ddf8);
-  color: #0c031b;
 }
 .shop a button:hover {
   background: linear-gradient(-286deg, white 10%, #f4fbff, white 70%, #f7ddf8);
@@ -611,12 +608,20 @@ header .container .header_content .btn1:hover {
 
 @media screen and (max-width: 900px) {
   .shop {
-    width: 100%;
+    width: 100vw;
+    margin-top: 1px;
+    height: 500px;
+    border: none;
   }
   .shop a {
-    height: 40px;
     background: linear-gradient(-286deg, white 10%, #f4fbff, white 70%, #f7ddf8);
     color: #0c031b;
+    border: none;
+    margin: none;
+  }
+  .shop a img {
+    width: 500px;
+    height: 400px;
   }
   .shop a button {
     font-size: 20px;
