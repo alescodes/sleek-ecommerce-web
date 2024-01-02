@@ -122,6 +122,7 @@ section > p {
   justify-content: center;
   display: flex;
   align-items: center;
+  position: fixed;
   background: transparent;
   width: 100vw;
   gap: 3rem;

@@ -3,7 +3,7 @@
   display: flex;
   align-items: center;
   // padding-top: 9.8rem;
-
+  position: fixed;
   background: transparent;
   width: 100vw;
   gap: 3rem;
@@ -16,6 +16,5 @@
 @media (max-width: 900px) {
   .nav-top {
     display: flex;
-    
   }
 }
